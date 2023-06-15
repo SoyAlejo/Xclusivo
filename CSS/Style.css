@@ -52,6 +52,6 @@ li :hover {
 	color: #d4af37;
 }
 hr {
-	margin-top: -0.5rem auto;
-	height: 0.19em !important;
+	margin-top: -1rem;
+	border-radius: 3%;
 }
