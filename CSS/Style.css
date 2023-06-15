@@ -1,6 +1,6 @@
 /* Body */
 body {
-	margin: 5% 15% !important;
+	/* margin: 5% 15% !important; */
 	background: whitesmoke;
 	font-family: "Montserrat", sans-serif;
 }
@@ -54,4 +54,14 @@ li :hover {
 hr {
 	margin-top: -1rem;
 	border-radius: 3%;
+}
+/* banner */
+.banner {
+	display: flex;
+	justify-content: center;
+}
+.banner img {
+	width: 70%;
+	border: #d4af37 solid;
+	border-radius: 2rem;
 }
