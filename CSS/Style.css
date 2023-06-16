@@ -82,8 +82,8 @@ hr {
 	width: 100%;
 }
 .contenedor p {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	font-size: large;
-	padding-left: 30%;
 	color: black;
-	justify-content: center;
+	text-align: center;
 }
