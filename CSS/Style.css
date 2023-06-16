@@ -1,4 +1,10 @@
 /* Body */
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
 body {
 	margin: 5% 5% !important;
 	background: whitesmoke;
@@ -51,12 +57,10 @@ li a {
 li :hover {
 	color: #d4af37;
 }
-hr {
-	margin-top: -1rem;
-	border-radius: 3%;
-}
+
 /* banner */
 .banner {
+	margin-top: 0.1rem;
 	display: flex;
 	justify-content: center;
 }
@@ -74,9 +78,10 @@ hr {
 .contenedor div {
 	width: 30% !important;
 	float: left;
-	margin-left: 2%;
+	margin-left: 2.4%;
 	border: #d4af37 solid;
 	border-radius: 1rem;
+	margin-bottom: 0.9rem;
 }
 .contenedor img {
 	width: 100%;
