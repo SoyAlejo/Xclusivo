@@ -107,9 +107,9 @@ li :hover {
 		width: 100%;
 		height: 14rem;
 	}
-	/* .contenedor div { */
-	/* auto !important; */
-	/* } */
+	.contenedor div {
+		width: 30% !important;
+	}
 	body {
 		margin: 0 1% 0 1% !important;
 	}
@@ -118,6 +118,9 @@ li :hover {
 	}
 }
 @media screen and (max-width: 600px) {
+	.contenedor div {
+		width: 45% !important;
+	}
 	.contenedor img {
 		width: 100%;
 		height: 9rem;
