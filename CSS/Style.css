@@ -92,7 +92,7 @@ li :hover {
 }
 .contenedor img {
 	max-width: 100%;
-	height: 15rem;
+	height: 20rem;
 }
 .contenedor p {
 	font-family: sans-serif;
@@ -105,12 +105,18 @@ li :hover {
 @media screen and (max-width: 800px) {
 	.contenedor img {
 		width: 100%;
-		height: 9rem;
+		height: 14rem;
 	}
 	.contenedor div {
 		width: 30% !important;
 	}
 	body {
 		margin: 0 1% 0 1% !important;
+	}
+}
+@media screen and (max-width: 600px) {
+	.contenedor img {
+		width: 100%;
+		height: 9rem;
 	}
 }
