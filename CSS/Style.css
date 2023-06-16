@@ -79,11 +79,16 @@ li :hover {
 	width: 30% !important;
 	float: left;
 	margin-left: 2.4%;
-	border: #d4af37 solid 0.1rem;
-	border-radius: 1rem;
 	margin-bottom: 0.9rem;
 }
+.contenedor img:hover {
+	opacity: 0.8;
+	border: #d4af37 solid 0.1rem;
+	border-radius: 1rem;
+}
 .contenedor img {
+	border: #d4af37 solid 0.1rem;
+	border-radius: 1rem;
 	width: 100%;
 }
 .contenedor p {
