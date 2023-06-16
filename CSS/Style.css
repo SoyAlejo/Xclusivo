@@ -1,6 +1,6 @@
 /* Body */
 body {
-	/* margin: 5% 15% !important; */
+	margin: 5% 5% !important;
 	background: whitesmoke;
 	font-family: "Montserrat", sans-serif;
 }
@@ -64,4 +64,26 @@ hr {
 	width: 100%;
 	border: #d4af37 solid;
 	border-radius: 1rem;
+}
+/* catalogo
+ */
+.contenedor {
+	width: 100%;
+	display: block;
+}
+.contenedor div {
+	width: 30% !important;
+	float: left;
+	margin-left: 2%;
+	border: #d4af37 solid;
+	border-radius: 1rem;
+}
+.contenedor img {
+	width: 100%;
+}
+.contenedor p {
+	font-size: large;
+	padding-left: 30%;
+	color: black;
+	justify-content: center;
 }
