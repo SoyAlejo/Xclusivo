@@ -6,7 +6,7 @@
 }
 
 body {
-	margin: 0 5% !important;
+	margin: 0 15% 0 15% !important;
 	background: whitesmoke;
 	font-family: "Montserrat", sans-serif;
 }
@@ -78,21 +78,21 @@ li :hover {
 	display: block;
 }
 .contenedor div {
-	width: 30% !important;
+	width: 22% !important;
 	float: left;
 	margin-left: 2.4%;
 	margin-bottom: 0.9rem;
-	border: #d4af37 solid 0.1rem;
 	border-radius: 1rem 0;
+	border: black solid 0.1rem;
 }
 .contenedor div:hover {
 	opacity: 0.8;
-	border: black solid 0.1rem;
+	border: #d4af37 solid 0.1rem;
 	border-radius: 1rem 0;
 }
 .contenedor img {
 	width: 100%;
-	height: 13rem;
+	height: 25rem;
 }
 .contenedor p {
 	font-family: sans-serif;
@@ -101,4 +101,16 @@ li :hover {
 	text-align: center;
 	background: #d4af37;
 	border-radius: 0.9rem 0;
+}
+@media screen and (max-width: 800px) {
+	.contenedor img {
+		width: 100%;
+		height: 9rem;
+	}
+	.contenedor div {
+		width: 30% !important;
+	}
+	body {
+		margin: 0 1% 0 1% !important;
+	}
 }
