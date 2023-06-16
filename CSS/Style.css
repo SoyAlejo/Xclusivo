@@ -6,7 +6,7 @@
 }
 
 body {
-	margin: 5% 5% !important;
+	margin: 0 5% !important;
 	background: whitesmoke;
 	font-family: "Montserrat", sans-serif;
 }
@@ -34,6 +34,8 @@ h1 {
 
 /* lista */
 ul {
+	margin-top: 1rem;
+	font-family: sans-serif;
 	padding: 0;
 	display: flex;
 	justify-content: center;
@@ -60,7 +62,7 @@ li :hover {
 
 /* banner */
 .banner {
-	margin-top: 0.1rem;
+	margin-top: 0.5rem;
 	display: flex;
 	justify-content: center;
 }
