@@ -7,9 +7,8 @@
 .list,
 hr,
 .banner,
-.contenedor {
-	width: 100%;
-	margin: 0 15% 0 15% !important;
+.logo,
+.logoh1 .contenedor {
 }
 body {
 	background: white;
@@ -137,7 +136,6 @@ footer {
 .container_footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 1rem;
 }
 .colum1 {
 	max-width: 400px;
@@ -146,7 +144,7 @@ footer {
 	font-size: 22px;
 }
 .colum1 p {
-	font-size: 14px;
+	font-size: 20px;
 	color: #f8f8f8;
 	margin-top: 28px;
 }
@@ -154,6 +152,7 @@ footer {
 	max-width: 400px;
 }
 .colum2 h1 {
+	font-size: 22px;
 	max-width: 20px;
 }
 .colum2_row {
@@ -184,17 +183,15 @@ footer {
 	height: 38px;
 }
 .colum3_row label {
-	margin-left: 28px;
+	/* margin-left: 28px; */
 }
-.container_footer2 {
-	display: block;
-}
+
 @media screen and (max-width: 768px) {
 	.list,
 	hr,
 	.banner,
 	.contenedor {
-		margin: 0 1% 0 1% !important;
+		margin: 0 6% !important;
 	}
 
 	.banner img {
