@@ -8,6 +8,7 @@
 hr,
 .banner,
 .contenedor {
+	width: 100%;
 	margin: 0 15% 0 15% !important;
 }
 body {
@@ -136,6 +137,7 @@ footer {
 .container_footer {
 	display: flex;
 	justify-content: space-between;
+	padding: 1rem;
 }
 .colum1 {
 	max-width: 400px;
@@ -152,7 +154,7 @@ footer {
 	max-width: 400px;
 }
 .colum2 h1 {
-	max-width: 22px;
+	max-width: 20px;
 }
 .colum2_row {
 	margin-top: 20px;
