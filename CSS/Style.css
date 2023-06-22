@@ -207,7 +207,7 @@ footer {
 	hr,
 	.banner,
 	.contenedor {
-		margin: 0 1% 0 1% !important;
+		margin: 0 1px 0 1px !important;
 	}
 	.container_footer {
 		flex-wrap: wrap;
@@ -238,7 +238,7 @@ footer {
 	hr,
 	.banner,
 	.contenedor {
-		margin: 0 1% 0 1% !important;
+		margin: 0 1px 0 1px !important;
 	}
 	.container_footer {
 		display: block;
