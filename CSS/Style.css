@@ -202,10 +202,9 @@ footer {
 	color: white;
 	font-weight: bold;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 	.container_footer {
-		display: block;
-		flex: wrap;
+		flex-wrap: wrap;
 	}
 
 	.banner img {
@@ -219,12 +218,20 @@ footer {
 
 	.contenedor {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 10px;
+	}
+	.colum3,
+	.colum2 {
+		margin-top: 20px;
 	}
 }
 
 @media screen and (max-width: 600px) {
+	.container_footer {
+		display: block;
+		flex-wrap: wrap;
+	}
 	.contenedor {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
