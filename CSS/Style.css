@@ -131,6 +131,7 @@ hr {
 footer {
 	background-color: #000000;
 	color: #ffffff;
+	padding: 40px;
 	width: 100% !important;
 }
 .container_footer {
@@ -153,7 +154,6 @@ footer {
 }
 .colum2 h1 {
 	font-size: 22px;
-	max-width: 22px;
 }
 .colum2_row {
 	margin-top: 20px;
@@ -165,35 +165,47 @@ footer {
 }
 .colum2_row label {
 	margin-top: 10px;
-	margin-left: 20px;
+	margin-left: 10px;
 	color: #f8f8f8;
 }
 .colum3 {
-	max-width: 400;
+	max-width: 400px;
 }
 .colum3 h1 {
-	font-size: 20px;
+	font-size: 22px;
 }
 .colum3_row {
-	margin-top: 28px;
+	margin-top: 20px;
 	display: flex;
 }
 .colum3_row img {
-	width: 38px;
-	height: 38px;
+	width: 36px;
+	height: 36px;
 }
 .colum3_row label {
-	margin-left: 28px;
+	margin-top: 10px;
+	margin-left: 20px;
+	max-width: 140px;
 }
 .container_footer2 {
-	display: block;
+	width: 100%;
+	background: gray;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.copiright {
+	color: #f8f8f8;
+}
+.copiright a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
 }
 @media screen and (max-width: 768px) {
-	.list,
-	hr,
-	.banner,
-	.contenedor {
-		margin: 0 1% 0 1% !important;
+	.container_footer {
+		display: block;
+		flex: wrap;
 	}
 
 	.banner img {
@@ -207,12 +219,17 @@ footer {
 
 	.contenedor {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 10px;
 	}
 }
 
 @media screen and (max-width: 600px) {
+	.contenedor {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+	}
 	.contenedor img {
 		height: 9rem !important;
 		width: 100%;
