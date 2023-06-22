@@ -1,12 +1,16 @@
 /* Body */
 * {
-	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
-
-body {
+.list,
+hr,
+.banner,
+.contenedor {
 	margin: 0 15% 0 15% !important;
+}
+body {
 	background: white;
 	font-family: "Montserrat", sans-serif;
 }
@@ -27,7 +31,7 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
+.logoh1 {
 	margin-top: -1.2rem !important;
 	font-size: 1.5rem;
 	justify-content: center;
@@ -36,6 +40,7 @@ h1 {
 }
 
 /* lista */
+
 ul {
 	margin-top: 1rem;
 	padding: 0;
@@ -63,6 +68,10 @@ li a {
 
 li :hover {
 	color: #d4af37;
+}
+hr {
+	margin-top: 0.1rem !important;
+	margin-top: 0.1rem !important;
 }
 
 /* banner */
@@ -116,8 +125,23 @@ li :hover {
 	border-radius: 0 0 1rem 1rem;
 }
 
+/* footer */
+
+footer {
+	all: initial;
+	background-color: #000000 !important;
+	color: #f8f8f0;
+	width: 100% !important;
+}
+.container_footer {
+	background-color: #000000;
+}
+
 @media screen and (max-width: 768px) {
-	body {
+	.list,
+	hr,
+	.banner,
+	.contenedor {
 		margin: 0 1% 0 1% !important;
 	}
 
