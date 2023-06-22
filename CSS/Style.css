@@ -203,6 +203,12 @@ footer {
 	font-weight: bold;
 }
 @media screen and (max-width: 1000px) {
+	.list,
+	hr,
+	.banner,
+	.contenedor {
+		margin: 0 1% 0 1% !important;
+	}
 	.container_footer {
 		flex-wrap: wrap;
 	}
@@ -228,6 +234,12 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+	.list,
+	hr,
+	.banner,
+	.contenedor {
+		margin: 0 1% 0 1% !important;
+	}
 	.container_footer {
 		display: block;
 		flex-wrap: wrap;
